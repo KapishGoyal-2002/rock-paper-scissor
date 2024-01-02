@@ -1,0 +1,37 @@
+*{
+	margin: 0px;
+	padding: 0;
+	text-align: center;
+}
+h1{
+	background: #3D3B40;
+	color: #FFFFF0;
+	line-height: 200%;
+}
+.game img{
+	width: 75%;
+	height: 75%;
+	margin-top: 5%;
+	object-fit: cover;
+}
+.game img:hover{
+	opacity: .8;
+	cursor: pointer;
+}
+.score{
+	height: auto;
+	padding: 2%;
+}
+.score h5{
+	font-size: 20px;
+}
+.msg{
+	margin: 5% 0 15% 0;
+}
+#winnerMsg{
+	background: #3D3B40;
+	color: #FFFFF0;
+	display: inline;
+	padding: 2%;
+	border-radius: 15%;
+}
